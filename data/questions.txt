@@ -1,0 +1,18 @@
+What C++ structure is used to handle multiple choice execution?
+If-Else Statement
+Switch Statement
+Do-While Loop
+For Loop
+B
+What is the standard I/O library in C++?
+iostream
+stdio.h
+conio.h
+stdlib.h
+A
+Which operator is used to de-reference a pointer?
+&
+*
+#
+%
+B
