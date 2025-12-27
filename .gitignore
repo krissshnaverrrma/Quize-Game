@@ -1,41 +1,17 @@
-## 2. `.gitignore` (Version Control Cleanup)
-
-This file tells Git which files it should **ignore** and not track or commit to the repository. This is crucial for keeping out temporary files, build artifacts, and executables.
-
-Create this file in the root directory (`QuizGame_CPP/`).
-
-```gitignore
-# --------------------
-# C++ PROJECT IGNORE FILE
-# --------------------
-
-# Executables and build output
-# The main executable we compile
 QuizGame
 QuizGame.exe
-
 # Object files (intermediary compilation files)
 *.o
 *.obj
 
 # Debug files
 *.d
-
-# CMAKE Files (if you choose to use CMake later)
 /build
 CMakeCache.txt
 CMakeFiles/
 Makefile
 cmake_install.cmake
-
-# IDE specific files (common editors and IDEs)
-# Visual Studio
 .vs/
 *.vcxproj.user
 *.suo
-
-# VS Code
 .vscode/
-
-# Vim/Nano temporary files
-*~
